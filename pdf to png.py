@@ -4,5 +4,5 @@ path = msg.prompt("Enter the the pdf file path.\nEnter 'NO' to exit.","Info Requ
 if path == "NO":
     exit()
 print("hi")
-images = pi.conver_from_path(path,fmt="png",grayscale=True)
+images = pi.convert_from_path(path,fmt="png",grayscale=True,poppler_path="C:\Users\ernsp\Documents\Python\poppler-0.68.0\bin")
 
